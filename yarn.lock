@@ -372,8 +372,6 @@ __metadata:
     googleapis: "npm:^149.0.0"
     typescript: "npm:^5.8.3"
     zod: "npm:^3.25.32"
-  bin:
-    floogic-mcp-server: ./build/index.js
   languageName: unknown
   linkType: soft
 
