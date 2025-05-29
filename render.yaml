@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: floogic-mcp-server
+    env: docker
+    buildCommand: docker build -t floogic-mcp-server .
+    startCommand: docker run -p $PORT:3000 floogic-mcp-server
